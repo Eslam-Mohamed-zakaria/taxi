@@ -1,0 +1,52 @@
+*{
+    padding: 0;    
+    margin: 0;
+}
+body{
+}
+#home1{
+    height: 100vh;
+    background-image: url(images/background.png);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px 5px 10px;
+    margin: 0 7rem;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: aliceblue;
+    transition: 0.3s;
+}
+ul li a:hover{
+    padding: 5px 10px;
+    background-color: yellow;
+    border-radius: 20px;
+}
+#home1 header{
+    display: flex;
+}
+#home1 header h1{
+    color: whitesmoke;
+    font-weight: 900;
+    font-size: 35px;
+    margin-top:200px;
+    margin-right: 0px;
+    padding: 10px 20px;
+    letter-spacing: 5px;
+}
+#home1 header h1 span{
+color: yellow;}
+#home1 header .im img{
+    width: 650px;
+    margin-top: 200px;
+    margin-left: 280px;
+}
